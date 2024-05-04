@@ -1,0 +1,58 @@
+{
+  "name": "@padcom/vue-i18n-kudutsa",
+  "version": "0.0.1",
+  "description": "A pass-through (kudutsa in chewa) that fixes some of the odditities of vue-i18n",
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.umd.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "vue.js",
+    "plugin",
+    "vue-plugin",
+    "vue-i18n",
+    "i18n",
+    "internationalization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/vue-i18n-kudutsa"
+  },
+  "bugs": {
+    "url": "https://github.com/padcom/vue-i18n-kudutsa/issues"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/padcom"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm run build -- -w",
+    "build": "vite build",
+    "prepublishOnly": "npm install && npm run build"
+  },
+  "dependencies": {
+    "vue": "^3",
+    "vue-i18n": "^9"
+  },
+  "devDependencies": {
+    "typescript": ">= 3.3.1 < 5.2.0",
+    "vite-plugin-dts": "^3.9.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite": "^5.2.10"
+  }
+}

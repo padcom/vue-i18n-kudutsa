@@ -1,0 +1,15 @@
+{
+  "workspaces": [
+    "packages/vue",
+    "packages/vite-plugin"
+  ],
+  "scripts": {
+    "start": "mrdr",
+    "dev": "mrdr",
+    "build": "mrdr run build",
+    "publish": "npm publish --workspaces --if-present"
+  },
+  "devDependencies": {
+    "mrdr": "^0.1.2"
+  }
+}
