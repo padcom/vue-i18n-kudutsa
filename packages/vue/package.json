@@ -1,6 +1,6 @@
 {
   "name": "@padcom/vue-i18n-kudutsa",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A pass-through (kudutsa in chewa) that fixes some of the oddities of vue-i18n",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
