@@ -1,7 +1,7 @@
 {
   "name": "@padcom/vite-plugin-vue-i18n-kudutsa",
   "version": "0.0.1",
-  "description": "A pass-through (kudutsa in chewa) to @intlify/vite-plugin-vue-i18n plugin",
+  "description": "A pass-through (kudutsa in chewa) to @intlify/unplugin-vue-i18n plugin",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "license": "MIT",
   "type": "module",

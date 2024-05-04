@@ -1,1 +1,1 @@
-export * from '@intlify/unplugin-vue-i18n'
+export * from '@intlify/unplugin-vue-i18n/vite'

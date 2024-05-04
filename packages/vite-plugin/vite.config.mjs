@@ -15,10 +15,10 @@ export default defineConfig ({
     },
     sourcemap: true,
     rollupOptions: {
-      external: ['@intlify/unplugin-vue-i18n'],
+      external: ['@intlify/unplugin-vue-i18n/vite'],
       output: {
         globals: {
-          '@intlify/unplugin-vue-i18n': 'intlifyunpluginvuei18n',
+          '@intlify/unplugin-vue-i18n/vite': 'intlifyUnpluginVueI18nVite',
         },
       },
     },
